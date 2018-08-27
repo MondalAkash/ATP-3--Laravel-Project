@@ -1,0 +1,322 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Tw Cen MT,ROBOTO,helvetica; 
+	height: 100vh;
+	
+
+	
+}
+
+.header-area{
+	background-color: rgba(51, 51, 51,0.6);
+}
+
+.header-area h1
+{
+	position: relative;
+	color: #ffffff;
+	text-align: center;
+	font-size: 50px;
+	padding: 10px; 
+}
+
+.mid-area
+{
+	padding: 4px;
+	height: 57px;
+	background-color: rgba(179, 179, 179,0.5);
+	margin-top: -8px;
+}
+
+.mid-area a{
+	margin-right: 50px;
+	text-decoration:none;
+	color: #ffffff;
+	font-size: 23px;
+	float: right;
+}
+
+.mid-area a:hover
+{
+
+	/*text-decoration: underline;*/
+
+}
+
+.login_form{
+	background-color: #e6e6e6;
+	color: #333;
+	width: 450px;
+	height: 230px;
+	font-size: 20px;
+	margin: 10% 40%;
+	border-radius: 5px;
+	padding: 10px 0px 0px 30px;
+
+}
+
+.user_welcome{
+	text-align: center;
+	
+	
+}
+
+.user_welcome h3{
+	font-size: 30px;
+	color: #858585;
+	text-decoration: bold;
+}
+
+
+.search_box{
+	border: 1px solid #858585;
+	border-width: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+.footer-area
+{
+	width: 100%;
+	background: #66b2ff;
+	height: 91px;
+	margin-top: -37px;
+}
+.footer-area h5
+{
+	width: 50%;
+	text-align: center;
+	margin-left: 332px;
+	color: #ffffff;
+	font-size: 18px;
+}
+.reg-panel
+{
+	background: #66B2FF;
+	height: 644px;
+	width: 100%;
+}
+.reg-panel form
+{
+	margin-left:306px;
+	
+}
+
+
+.mid 
+{
+	
+	width: 258px;
+	margin-left: 498px;
+	margin-top: 20px;
+	padding: 50px;
+	background:#6666FF;
+	
+}
+.mid label
+{
+	cursor: pointer;
+	font-size: 20px;
+	
+}
+.mid input[type=text]
+{
+	width: 250px;
+	height: 30px;
+	
+}
+.mid input[type=password]
+{
+	width: 250px;
+	height: 30px;
+	
+}
+.mid a:hover
+{
+	font-weight: bold;
+	color: #66B2FF;
+	font-size: 22px;
+}
+.mid input[type=submit]
+{
+	width:100%;
+	margin-top: 8px;
+	height: 50px;
+	background:#66B2FF;
+	font-size: 15px;
+}
+.mid input[type=submit]:hover
+{
+	height: 60px;
+	font-size: 18px;
+}
+
+	
+	 /* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+	margin-right: 51px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+.update_btn{
+	
+	text-align: center;
+	margin-bottom: 10%;
+}
+
+
+.admin_background{
+	background-image: url('../images/palm-leaf.png');
+	height: 100%;
+	background-size: repeat;
+}
+
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="email"]
+{
+  height:30px;
+  width:100%;
+  /*display: inline-block;*/
+  vertical-align: middle;
+  padding: 0 10px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 0.7);
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+
+
+.create_user{
+	/*background-color: #73B746;*/
+	width: 200px;
+	height: 80px;
+	text-align: center;
+	padding-top: 40px;
+	display: inline-block;
+}
+
+.create_book{
+	/*background-color: #0BC0CB;*/
+	width: 200px;
+	height: 80px;
+	text-align: center;
+	padding-top: 40px;
+	display: inline-block;
+}
+.user_list{
+	/*background-color: #847CC5;*/
+	width: 200px;
+	height: 80px;
+	text-align: center;
+	padding-top: 40px;
+	display: inline-block;
+	margin-left: 20px;
+}
+.book_list{
+	/*background-color: #FFB400;*/
+	width: 200px;
+	height: 80px;
+	text-align: center;
+	padding-top: 40px;
+	display: inline-block;
+	margin-left: 7px;
+}
+.search_user{
+	/*background-color: #FFB400;*/
+	width: 200px;
+	height: 80px;
+	text-align: center;
+	padding-top: 40px;
+	display: inline-block;
+	margin-top:10px;
+}
+
+.mid-low{
+	margin-top: 20px;
+
+	background-color: rgba(38, 38, 38,0.7);
+	border-radius: 85px;
+	height: 338px;
+	width: 70%;
+	padding-left: 16%;
+	padding-top: 60px;
+	margin-left: 210px;
+}
+
+.mid-low a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.mid-low a:hover{
+	/*text-decoration: underline;*/
+}
+
+.mid-low span{
+	width: 100px;
+}
